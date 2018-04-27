@@ -1,4 +1,9 @@
-#version 150
+#ifdef GL_ES
+    #version 300
+    precision mediump float;
+#else
+    #version 150
+#endif
 
 uniform mat4 transform;
 
