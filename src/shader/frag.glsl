@@ -1,8 +1,6 @@
+#version 300 es
 #ifdef GL_ES
-    #version 300 es
     precision mediump float;
-#else
-    #version 150
 #endif
 
 uniform sampler2D font_tex;
