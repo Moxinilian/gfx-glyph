@@ -1,5 +1,5 @@
 #ifdef GL_ES
-    #version 300
+    #version 300 es
     precision mediump float;
 #else
     #version 150
